@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title>Silhouette Dice Probability Calculator</title>
+
+	<script type='text/javascript' language='javascript' src='jquery-1.3.2.min.js'></script>
+	<script type='text/javascript' language='javascript' src='jquery.flot.js'></script>
+	<script type='text/javascript' language='javascript' src='silprob.js'></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="silprob.css" />
+</head>
+<body>
+
+<div id="page">
+	<form>
+		Silhouette probabilities using
+		<select name="dietype" id="dietype">
+<!--			<option value="4">D4</option>-->
+			<option value="6" selected="selected">D6</option>
+			<option value="8">D8</option>
+			<option value="10">D10</option>
+<!--			<option value="12">D12</option>
+			<option value="20">D20</option>-->
+		</select>
+
+		at
+
+		<select name="rdl" id="rdl">
+			<option value="gritty">Gritty RDL</option>
+			<option value="adventurous" selected="selected">Adventurous RDL</option>
+			<option value="cinematic">Cinematic RDL</option>
+		</select>
+	</form>
+
+	<div id="results"><span class="noinit">Oh oh, the javascript didn't initialize...</span></div>
+	
+	<div id="graph"></div>
+
+	<p class="copyright">SilProb v4 by <a href="http://binarybonsai.com">Michael Heilemann</a>&nbsp; &middot; &nbsp; Silhouette &copy; <a href="http://dp9.com">Dream Pod 9</a> &nbsp; &middot; &nbsp; Uses <a href="http://jquery.com/">jQuery</a> and <a href="http://code.google.com/p/flot/">Flot</a> &nbsp; &middot; &nbsp; <a href="http://binarybonsai.com/2009/11/01/my-new-dice-probability-calculator/">Info</a> &nbsp; &middot; &nbsp; <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Rights</a> &nbsp; &middot; &nbsp; <a href="silprob.v4.zip">Download</a></p>
+
+</div>
+
+</body>
+</html>

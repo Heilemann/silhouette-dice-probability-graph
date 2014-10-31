@@ -1,0 +1,98 @@
+body {
+	font: .85em Helvetica;
+}
+
+div#page {
+	width: 700px;
+	margin: 0 auto;
+}
+
+#graph {
+	width: 700px;
+	height: 370px;
+}
+
+form {
+	text-align:center;
+	margin-top: 30px;
+	font-size: 15px;
+}
+
+select {
+	font-size: 15px !important;
+}
+
+form * {
+	margin: 0 4px;
+}
+
+#results {
+	margin: 30px 0 !important;
+}
+
+#results table {
+	border-collapse: collapse;
+	border-spacing: 0px;
+	font-size: .8em;
+}
+
+tr:hover {
+	background: #eee;
+}
+
+tr.header:hover {
+	background: transparent;
+}
+
+.resultcolumn, .result {
+	border-right: 1px solid #ccc;
+	white-space: nowrap;
+}
+
+.result .threshold {
+	width: 15px;
+	display: inline-block;
+}
+
+.result .description {
+	font-weight: normal;
+	color: #999;
+}
+
+td {
+	padding: 6px 10px;
+	text-align: right;
+}
+
+td.header {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+td.result {
+	font-weight: bold;
+	text-align: right;
+}
+
+td.na { color: #ccc;}
+
+.average, .fumble, .cpap {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+#results, #graph {
+	margin: 40px 0;
+}
+
+.copyright {
+	font-size: 9px;
+	text-align: center;
+	color: #ccc;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+
+a {
+	color: #aaa;
+}
