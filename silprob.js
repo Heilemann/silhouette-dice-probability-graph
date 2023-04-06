@@ -9,7 +9,7 @@ function prepare() {
   } else if ($('#rdl').val() == 'adventurous') {
 		bonusthreshold = dietype;
 
-  } else if ($('#rdl').val() == 'cinematic')
+  } else if ($('#rdl').val() == 'cinematic') {
 		bonusthreshold = dietype - 1;
   }
 
